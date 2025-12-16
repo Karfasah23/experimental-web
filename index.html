@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Okta Rafiansyah</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <div id="preloader">
+        <div class="loader-ring"></div>
+        <p>Memuat Portofolio...</p>
+    </div>
+
+    <main id="main-content" style="opacity: 0;">
+
+        <nav id="navbar">
+            <div class="container">
+                <a href="#hero" class="logo">Okta Rafiansyah</a>
+                <div id="nav-links">
+                    <a href="#hero" class="active" data-target="hero">Home</a>
+                    <a href="#about" data-target="about">About</a>
+                    <a href="#skills" data-target="skills">Skills</a>
+                    <a href="#projects" data-target="projects">Projects</a>
+                    <a href="#featured-links" data-target="featured-links">Links</a> <a href="#media-gallery" data-target="media-gallery">Media</a> <a href="#experience" data-target="experience">Experience</a>
+                    <a href="#contact" data-target="contact">Contact</a>
+                    <button id="dark-mode-toggle" title="Toggle Dark Mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+                <div class="hamburger" id="menu-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+
+        <section id="hero" class="full-height section-padding">
+            <div class="container hero-container"> 
+                
+                <div class="hero-content">
+                    <p class="greeting">Hallo, I'm</p>
+                    <h1>Okta Rafiansyah</h1>
+                    <h2 class="professional-title">Tech Enthusiast | A Student</h2>
+                    <p class="tagline">I want to build experience in the IT field because it is something I am truly interested in and has become a hobby. I want to continue expanding my knowledge of technology and computers, as well as further developing my skills in IT. It would be even more exciting if I could grow these skills at the Bandung Institute of Technology in the future.</p>
+                    <div class="cta-buttons">
+                        <a href="#contact" class="button primary-btn">Hubungi Saya</a>
+                        <a href="File/CV.pdf" class="button secondary-btn" target="_blank">Download CV</a>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <img src="Image/okta.webp" alt="Foto Profil Okta Rafiansyah">
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="about" class="section-padding dark-section">
+            <div class="container">
+                <h2 class="section-title">Tentang Saya</h2>
+                <p class="about-text">
+                    Saya adalah siswa aktif jurusan Teknik Komputer dan Jaringan (TKJ) di SMK Negeri 2 Empat Lawang yang memiliki ketertarikan besar di bidang teknologi, komunikasi, dan organisasi. Terbiasa bekerja secara detail, bertanggung jawab dalam tim, serta mampu beradaptasi dalam berbagai situasi. Memiliki pengalaman dalam Lomba Kompetensi Siswa (LKS) bidang IT Networking System Administration tingkat Kabupaten dan Provinsi. Saya juga aktif dalam organisasi sekolah dan kegiatan sosial, serta senang belajar hal-hal baru untuk mengembangkan kemampuan pribadi dan profesional.
+                </p>
+            </div>
+        </section>
+
+        <section id="skills" class="section-padding">
+            <div class="container">
+                <h2 class="section-title">Keahlian</h2>
+                <div class="skills-container">
+                    <div class="skills-category">
+                        <h3>Hard Skills (Teknis)</h3>
+                        <div class="skill-list">
+                            <div class="skill-item" data-level="90"><span class="skill-name">HTML</span></div>
+                            <div class="skill-item" data-level="85"><span class="skill-name">CSS</span></div>
+                            <div class="skill-item" data-level="80"><span class="skill-name">JavaScript</span></div>
+                            <div class="skill-item" data-level="75"><span class="skill-name">None</span></div>
+                            <div class="skill-item" data-level="70"><span class="skill-name">None</span></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-category">
+                        <h3>Soft Skills</h3>
+                        <ul class="soft-skills-list">
+                            <li><i class="fas fa-users"></i>Kerja Tim & Kolaborasi</li>
+                            <li><i class="fas fa-lightbulb"></i>Pemecahan Masalah Kreatif</li>
+                            <li><i class="fas fa-comments"></i>Komunikasi Efektif</li>
+                            <li><i class="fas fa-clock"></i>Manajemen Waktu</li>
+                            <li><i class="fas fa-book-open"></i>Kemauan Belajar Tinggi</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section-padding dark-section">
+            <div class="container">
+                <h2 class="section-title">Portofolio Proyek</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Project E-Commerce Modern</h3>
+                        <p class="project-desc">Platform belanja online dengan fitur real-time inventory dan sistem pembayaran terintegrasi.</p>
+                        <div class="project-tech"><span>React</span><span>Node.js</span><span>MongoDB</span></div>
+                        <div class="project-links">
+                            <a href="[LINK_DEMO]" class="link-btn" target="_blank"><i class="fas fa-eye"></i>Demo</a>
+                            <a href="[LINK_GITHUB]" class="link-btn" target="_blank"><i class="fab fa-github"></i>Code</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Aplikasi Manajemen Tugas</h3>
+                        <p class="project-desc">Alat kolaborasi tim untuk melacak progres tugas dan mengatur deadline.</p>
+                        <div class="project-tech"><span>Vue.js</span><span>Express</span><span>PostgreSQL</span></div>
+                        <div class="project-links">
+                            <a href="[LINK_DEMO]" class="link-btn" target="_blank"><i class="fas fa-eye"></i>Demo</a>
+                            <a href="[LINK_GITHUB]" class="link-btn" target="_blank"><i class="fab fa-github"></i>Code</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Website Profil Perusahaan</h3>
+                        <p class="project-desc">Website landing page statis yang fokus pada performa cepat dan SEO tinggi.</p>
+                        <div class="project-tech"><span>HTML5</span><span>SASS</span><span>JavaScript</span></div>
+                        <div class="project-links">
+                            <a href="[LINK_DEMO]" class="link-btn" target="_blank"><i class="fas fa-eye"></i>Demo</a>
+                            <a href="[LINK_GITHUB]" class="link-btn" target="_blank"><i class="fab fa-github"></i>Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="featured-links" class="section-padding">
+            <div class="container">
+                <h2 class="section-title">🔗 Link Pembelajaran</h2>
+                
+                <div class="link-grid">
+                    <div class="link-card fade-in">
+                        <h3>Galeri Dokumentasi Pembelajaran</h3>
+                        <p>Kumpulan Foto dan Video Proses Belajar</p>
+                        <a href="Image/Thumbnile.webp" target="_blank">
+                            <i class="fas fa-camera icon-label"></i>Lihat Album Foto
+                        </a>
+                    </div>
+        
+                    <div class="link-card fade-in">
+                        <h3>Untuk Pemula</h3>
+                        <p>Video Pembelajaran HTML,CSS dan JavaScript</p>
+                        <a href="https://www.youtube.com/@sandhikagalihWPU/playlists" target="_blank">
+                            <i class="fab fa-youtube icon-label"></i>Tonton Video
+                        </a>
+                    </div>
+        
+                    <div class="link-card fade-in">
+                        <h3>Artikel Teknis di Medium</h3>
+                        <p>Baca artikel saya tentang implementasi teknologi XYZ.</p>
+                        <a href="[LINK_BLOG_ANDA]" target="_blank">
+                            <i class="fas fa-globe icon-label"></i>Kunjungi Artikel
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="media-gallery" class="section-padding dark-section">
+            <div class="container">
+                <h2 class="section-title">📷 Galeri Media</h2>
+                <p class="gallery-description">Lihat cuplikan visual dari pekerjaan, prototipe, atau video demo project saya.</p>
+
+                <div class="media-grid">
+                    
+                    <div class="media-item fade-in">
+                        <img src="Image/Thumbnile.webp" alt="Screenshot Proyek A">
+                        <div class="media-overlay">
+                            <p>Screenshot Dashboard Proyek A</p>
+                            <a href="Image/Thumbnile.webp" target="_blank"><i class="fas fa-search-plus"></i> Lihat Penuh</a>
+                        </div>
+                    </div>
+
+                    <div class="media-item fade-in video-item">
+                        <img src="Image/Thumbnile.webp" alt="Demo Video Proyek B">
+                        <div class="media-overlay">
+                            <p>Video Demo Proyek B</p>
+                            <a href="Video/coolboy.mp4" target="_blank" class="video-play-btn"><i class="fas fa-play-circle"></i> Tonton</a>
+                        </div>
+                    </div>
+
+                    <div class="media-item fade-in">
+                        <img src="Image/Thumbnile.webp" alt="Wireframe Desain">
+                        <div class="media-overlay">
+                            <p>Wireframe Desain Aplikasi</p>
+                            <a href="Image/Thumbnile.webp" target="_blank"><i class="fas fa-search-plus"></i> Lihat Penuh</a>
+                        </div>
+                    </div>
+
+                    <div class="media-item fade-in">
+                        <img src="Image/Thumbnile.webp" alt="Wireframe Desain">
+                        <div class="media-overlay">
+                            <p>Wireframe Desain Aplikasi</p>
+                            <a href="Image/Thumbnile.webp" target="_blank"><i class="fas fa-search-plus"></i> Lihat Penuh</a>
+                        </div>
+                    </div>
+
+                    <div class="media-item fade-in video-item">
+                        <img src="Image/Thumbnile.webp" alt="Demo Video Proyek B">
+                        <div class="media-overlay">
+                            <p>Video Demo Proyek B</p>
+                            <a href="Video/jjptn.mp4" target="_blank" class="video-play-btn"><i class="fas fa-play-circle"></i> Tonton</a>
+                        </div>
+                    </div>
+
+                    <div class="media-item fade-in">
+                        <img src="Image/Thumbnile.webp" alt="Kode Snippet">
+                        <div class="media-overlay">
+                            <p>Kode Snippet Favorit</p>
+                            <a href="Image/Thumbnile.webp" target="_blank"><i class="fas fa-search-plus"></i> Lihat Penuh</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="experience" class="section-padding">
+            <div class="container">
+                <h2 class="section-title">Pengalaman & Pendidikan</h2>
+                <div class="timeline">
+                    
+                    <div class="timeline-item">
+                        <span class="timeline-dot"></span>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2013 - 2020</span>
+                            <h3>SD Negeri 1 Pendopo</h3>
+                            <h4>Masa di Mana Saya Memulai Semuannya</h4>
+                            <p>Menempuh pendidikan dasar sebagai fondasi awal pembentukan karakter, disiplin, dan kemampuan belajar.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <span class="timeline-dot"></span>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2020 - 2023</span>
+                            <h3>SMP Negeri 1 Pendopo Barat</h3>
+                            <h4>Masa Ketika Sadar Apa Tujuan Kedepannya</h4>
+                            <p>Mengembangkan pengetahuan umum, minat, serta keterampilan sosial sebagai tahap transisi menuju pendidikan kejuruan.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <span class="timeline-dot"></span>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2023 - Sekarang</span>
+                            <h3>SMK Negeri 2 Empat Lawang</h3>
+                            <h4>Masa Mencari Jati Diri</h4>
+                            <p>Berfokus pada bidang IT sebagai hal yang saya minati dan suka, mengasah keterampilan teknis, praktik, dan kesiapan menuju pendidikan lanjutan (Kuliah) maupun dunia kerja.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section-padding dark-section">
+            <div class="container">
+                <h2 class="section-title">Hubungi Saya</h2>
+                
+                <form action="https://formspree.io/f/xkgdadzq" method="POST" id="contact-form">
+                    
+                    <div class="form-group">
+                        <label for="name">Nama Anda</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Anda</label>
+                        <input type="email" id="email" name="email" required>
+                        </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Pesan</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="button primary-btn send-btn">Kirim Pesan</button>
+                    
+                    <p id="form-status" style="margin-top: 15px; text-align: center;"></p>
+                </form>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/okta-rafiansyah-495a01358/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Karfasah23" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/okta_rafiansyah/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <p>&copy; <span id="current-year"></span> Okta Rafiansyah. All rights reserved.</p>
+                <p class="design-credit">Created as a place to archive achievements.</p>
+            </div>
+        </footer>
+
+    </main>
+
+    <audio id="background-music" loop>
+        <source src="Sound/TULUS - Tujuh Belas.mp3" type="audio/mpeg">
+        Browser Anda tidak mendukung elemen audio.
+    </audio>
+    
+    <button id="music-toggle" title="Toggle Background Music">
+        <i class="fas fa-volume-mute"></i>
+    </button>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
